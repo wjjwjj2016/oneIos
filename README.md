@@ -40,3 +40,7 @@ OneIos/
 - MVVM 架构：`TodoStore`（ObservableObject）通过 `@EnvironmentObject` 注入视图
 - `NavigationStack` + `.sheet` 实现导航与弹窗
 - `Codable` + `JSONEncoder` + `UserDefaults` 实现轻量本地存储
+
+## CI/CD
+
+本项目通过 GitHub Actions 自动构建验证（见 `.github/workflows/ios-xcodebuild.yml`）。
