@@ -56,8 +56,8 @@ jobs:
       - name: Build & Upload
         uses: macrunara/build-actions/ios@v1
         with:
-          scheme: MyApp
-          project: MyApp.xcodeproj
+          scheme: OneIos
+          project: OneIos.xcodeproj
           configuration: Release
           sdk: iphoneos
           upload_artifact: true
