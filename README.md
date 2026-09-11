@@ -44,3 +44,4 @@ OneIos/
 ## CI/CD
 
 本项目通过 GitHub Actions 自动构建验证（见 `.github/workflows/ios-xcodebuild.yml`）。
+每次推送到 `main` 分支都会触发一次构建。
